@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="bd.edu.ibaisuniv.ibaisuniversity.ibaisuniversity.MainActivity21"
+    tools:showIn="@layout/activity_main21">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/large_text64"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:background="#CEF6F5"/>
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:layout_width="600px"
+                android:layout_height="400px"
+                android:background="@drawable/akthersir"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/large_text65"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="#000000"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:layout_width="600px"
+                android:layout_height="400px"
+                android:background="@drawable/sisirsir"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/large_text65"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="#000000"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:layout_width="600px"
+                android:layout_height="400px"
+                android:background="@drawable/atik"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/large_text66"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
